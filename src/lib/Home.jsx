@@ -90,7 +90,7 @@ function Home() {
             <div
               onClick={() =>
                 (window.location.href =
-                  "/profile" + localStorage.getItem("username"))
+                  "/profile/" + localStorage.getItem("username"))
               }
               className="opacity-50 hover:opacity-100 cursor-pointer"
             >
